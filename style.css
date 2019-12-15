@@ -1,0 +1,1082 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    color: #f4f4f4;
+}
+
+hr {
+    border: none;
+    background-color: #B7A294;
+    color: #B7A294;
+    height: 1.5px;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.header__inner {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuNavigation {
+    font-size: 15px;
+    color: black;
+}
+
+.navItem {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    text-decoration: none;
+    transition: color .2s linear;
+    color: black;
+}
+
+.navItem:hover {
+    color: darkgray;
+}
+
+.socialIcons {
+    color: black;
+    font-size: 15px;
+}
+
+.socialItem {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+    position: relative;
+    color: black;
+
+    transition: color .2s linear;
+}
+
+.socialItem:hover {
+    color: darkgray;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+/* Section 1 Intro*/
+
+.intro {
+    width: 100%;
+    height: 530px;
+    background-color: black;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.introInner {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 880px;
+}
+
+.supTitle {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+.title {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+/*Tекстовая секция section 2*/
+
+.introTextSection {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 60px 0;
+}
+
+.introTextSectionInner {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.textStandartCSS {
+    font-size: 18px;
+    color: black;
+    padding-bottom: 30px;
+    text-align: left;
+
+    line-height: 1.8;
+}
+
+.h2StandartCSS {
+    color: black;
+    font-size: 30px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/*3 section*/
+.introSection3 {
+    width: 100%;
+    height: 430px;
+    background-color: black;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 80px;
+}
+
+/*4  section*/
+.section4 {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.section4Container {
+    width: 100%;
+    max-width: 1220px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4Title {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section4Info {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.containerSection4_2 {
+    width: 100%;
+    max-width: 1220px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+
+    width: 590px;
+    height: 710px;
+}
+
+.blockStandartTextCSS {
+    padding: 15px 30px 0 30px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookH2TextOffer {
+    line-height: 1.5;
+    width: 75%;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.section4TitleText {
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+/*Last intro*/
+.LastIntro {
+    width: 100%;
+    height: 630px;
+    background-color: #B7A294;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.LastIntroContainer {
+    width: 100%;
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+.LastIntroInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LastIntroTitle {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.images {
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.LastIntroText {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+/*footer*/
+.footerContainer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.footerInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerNavContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footerLinks {
+    font-size: 15px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.footerItem {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 15px;
+    position: relative;
+    text-decoration: none;
+    transition: color .2s linear;
+    color: black;
+}
+
+.footerItem:hover {
+    color: darkgray;
+}
+
+.copyright {
+    color: black;
+    padding-top: 30px;
+}
+
+.button {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+
+    transition: background .1s linear;
+    padding: 15px 10px;
+    margin-bottom: 35px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.blockStandartTextCSS_1 {
+    padding: 15px 0 0 60px;
+}
+
+.textStandartCSS_4 {
+    font-size: 18px;
+    color: black;
+    padding-bottom: 30px;
+    text-align: left;
+
+    line-height: 1.8;
+    padding-left: 15px;
+}
+
+
+/*Offerings.html*/
+.OfferingsContainer {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.OfferingsRow {
+    display: flex;
+
+    flex-direction: row;
+
+
+}
+
+.OfferingsInfo {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin: 60px 0;
+    flex: 0 1 33.33%;
+}
+
+.OfferingsInfo.second {
+    margin: 60px 0 60px 50px;
+    flex: 0 1 33.33%;
+}
+
+.OfferingsH2Text {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.OfferingsImgContent {
+    width: 590px;
+    height: 390px;
+    margin-bottom: 30px;
+}
+
+.OfferingsImgText {
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.3;
+
+}
+
+
+.OfferingsImgLink {
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: #D68268;
+    align-items: start;
+}
+
+/*Book*/
+.BookButton {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+
+    transition: background .1s linear;
+    padding: 25px 20px;
+    margin-bottom: 35px;
+}
+
+.BookButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.BookContainer {
+    width: 100%;
+    max-width: 1220px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.BookContainerInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BooksupTitle {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.bookImg {
+    widht: 1210px;
+    height: 750px;
+    margin-bottom: 30px;
+}
+
+.bookImgNew {
+    width: 700px;
+    height: 400px;
+}
+
+.BookContainerInnerNew {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.BookRowImgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.supTitleStandart {
+    color: black;
+    font-size: 15px;
+    margin: 30px 0;
+}
+
+.column3Standart {
+    display: flex;
+}
+
+.columItem {
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    width: 33.333%;
+    line-height: 1.3;
+    font-size: 20px;
+    color: black;
+}
+
+.Bookh2New {
+    margin: 30px 0;
+    line-height: 1.5;
+    font-size: 30px;
+    color: black;
+}
+
+.bookh2 {
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.bookSmallTitle {
+    font-size: 15px;
+    color: black;
+}
+
+/*Writing*/
+.WritingContainer {
+    width: 100%;
+    max-width: 1220px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.WritingInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.WritingHeaderInner {
+    display: flex;
+    flex-direction: column;
+}
+
+.WritinSupTitle {
+
+    display: block;
+    margin: 20px auto;
+    color: black;
+}
+
+.WritinhHeaderFiltr {
+    margin: 30px 0;
+}
+
+.WritingHeaderFiltrItem {
+
+    font-size: 15px;
+    margin: 0 15px;
+    color: #B7A294;
+
+    transition: color .2s linear;
+}
+
+.WritingHeaderFiltrItem:hover {
+    color: black;
+}
+
+.WritingContentInner {
+
+    width: 100%;
+    max-width: 1220px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WritingContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.WritingContentItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 260px;
+    height: 260px;
+    margin: 40px 30px 40px 30px;
+    flex: 25%;
+}
+
+.WritingContentimg {
+    width: 260px;
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.WritingContentText {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.WritingContentH3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Shop*/
+.ShopContainer {
+    width: 100%;
+    max-width: 1220px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.ShopContainerInner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ShopContentItem {
+    width: 400px;
+    height: 690px;
+    margin: 50px 30px;
+}
+
+.ShopImg {
+    width: 400px;
+    height: 590px;
+    margin-bottom: 15px;
+}
+
+.ShopImgInfo {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.ShopPrice {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+/*Fox&Feather*/
+.Fox_FeatherSupTitle {
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: gray;
+}
+
+.Fox_FeatherTitle {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 35px;
+}
+
+.F_FSupTitleText {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.F_FtextSectionTitle {
+
+    color: black;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+/*Contact*/
+.contactInner {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInnerTextMassage {
+    margin: 60px 120px;
+}
+
+.ContactTextItem {
+    color: black;
+    padding: 0 0 30px 0;
+    font-size: 25px;
+}
+
+.contactInnerMap {
+    margin: 60px 120px;
+}
+
+
+@media (max-width: 600px) {
+    hr {
+        margin: 15px 15px;
+    }
+
+    /*HamburgerMenu*/
+    .header__inner {
+        padding: 20px 15px;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu__toggle {
+        opacity: 0;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+    }
+
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+        width: 26px;
+        height: 26px;
+
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: absolute;
+
+        width: 100%;
+        height: 2px;
+
+        background-color: #616161;
+
+        transition-duration: .25s;
+    }
+
+    .menu__btn > span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu__btn > span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+
+        width: 300px;
+        height: 100%;
+
+        margin: 0;
+        padding: 80px 0;
+
+        list-style: none;
+
+        background-color: #ECEFF1;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+        transition-duration: .25s;
+    }
+
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+
+        color: #333;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+
+        text-decoration: none;
+
+        transition-duration: .25s;
+    }
+
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+
+    /*Навигация меню*/
+    .menuNavigation {
+        display: none;
+    }
+
+    /*intro*/
+    .introInner {
+        width: 100%;
+        height: auto;
+    }
+
+    .supTitle {
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 25px;
+        line-height: 1;
+    }
+
+    .introTextSectionInner {
+        padding: 0 15px;
+    }
+
+    .textStandartCSS {
+
+        line-height: 1.8;
+    }
+
+    .h2StandartCSS {
+        font-size: 23px;
+        line-height: 1.5;
+    }
+
+    .section4Info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section4TitleText {
+        font-size: 15px;
+
+    }
+
+    .img {
+        margin: 0 auto;
+        width: 390px;
+        height: 395px;
+    }
+
+    .imgIndex2 {
+        margin: 0 auto;
+        width: 605px;
+        height: 910px;
+    }
+
+    .imgIndexGift {
+        margin: 0 auto;
+        width: 600px;
+        height: 590px;
+    }
+
+    .Mobile {
+        flex-direction: column-reverse;
+    }
+
+    .section4Info {
+        padding: 0 15px;
+    }
+
+    .LastIntroContainer {
+        padding: 0 15px;
+    }
+
+    .LastIntroInner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .LastIntroTitle {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .LastIntroText {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    /*Offerings*/
+    .OfferingsContainer {
+        padding: 0 15px;
+    }
+
+    .OfferingsRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .OfferingsInfo {
+        height: auto;
+    }
+
+    .OfferingsImgContent {
+        width: 540px;
+        height: 400px;
+    }
+
+    .OfferingsInfo.second {
+        margin: 0 0 30px 0;
+    }
+
+
+    /*Book*/
+    .bookH2TextOffer {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .BookButton {
+        padding: 10px 20px;
+    }
+
+    .BookContainer {
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+    }
+
+    .bookImg {
+        width: 540px;
+        height: 320px;
+
+    }
+
+    .BookContainerInnerNew {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BookRowImgContainer {
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .bookImgNew {
+        width: 540px;
+        height: 320px;
+    }
+
+    .column3Standart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .columItem {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 15px 0;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .Bookh2New {
+        font-size: 25px;
+        padding: 0 15px;
+    }
+
+    .bookh2 {
+        font-size: 30px;
+    }
+
+    /*Writings*/
+    .WritingContainer {
+        margin: 0 15px;
+    }
+
+    .WritingHeaderInner {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .WritinhHeaderFiltr {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .WritingHeaderFiltrItem {
+        margin: 0 0;
+        padding: 0 10px;
+    }
+
+    .WritingContentInner {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        margin: 0 15px;
+    }
+
+    .WritingContent {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    /*Shop*/
+    .ShopContainer {
+        width: 100%;
+        height: auto;
+    }
+
+    .ShopContainerInner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Shop*/
+    .contactInner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ContactTextItem {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .contactInnerMap{
+        margin: 0 0;
+    }
+}
