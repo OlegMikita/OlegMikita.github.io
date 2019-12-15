@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     color: #f4f4f4;
+    overflow-x: hidden;
 }
 
 hr {
@@ -153,7 +154,6 @@ hr {
     color: black;
     padding-bottom: 30px;
     text-align: left;
-
     line-height: 1.8;
 }
 
@@ -359,7 +359,7 @@ hr {
 
 
 .blockStandartTextCSS_1 {
-    padding: 15px 0 0 60px;
+    padding: 15px 10px 0 10px;
 }
 
 .textStandartCSS_4 {
@@ -383,10 +383,7 @@ hr {
 
 .OfferingsRow {
     display: flex;
-
     flex-direction: row;
-
-
 }
 
 .OfferingsInfo {
@@ -402,6 +399,7 @@ hr {
 .OfferingsInfo.second {
     margin: 60px 0 60px 50px;
     flex: 0 1 33.33%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .OfferingsH2Text {
@@ -419,10 +417,10 @@ hr {
 .OfferingsImgText {
     width: 100%;
     color: black;
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 30px;
-    line-height: 1.3;
-
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -725,8 +723,30 @@ hr {
     margin: 60px 120px;
 }
 
+.erorContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ErrorText404 {
+    color: black;
+    font-size: 120px;
+    margin: 60px 0;
+}
+
+.Massegetext404{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
 
 @media (max-width: 600px) {
+
     hr {
         margin: 15px 15px;
     }
@@ -890,20 +910,20 @@ hr {
 
     .img {
         margin: 0 auto;
-        width: 390px;
+        width: 350px;
         height: 395px;
     }
 
     .imgIndex2 {
         margin: 0 auto;
-        width: 605px;
-        height: 910px;
+        width: 350px;
+        height: 500px;
     }
 
     .imgIndexGift {
         margin: 0 auto;
-        width: 600px;
-        height: 590px;
+        width: 390px;
+        height: 290px;
     }
 
     .Mobile {
@@ -952,12 +972,13 @@ hr {
     }
 
     .OfferingsImgContent {
-        width: 540px;
-        height: 400px;
+        width: 390px;
+        height: 200px;
     }
 
     .OfferingsInfo.second {
         margin: 0 0 30px 0;
+        font-family: 'Poppins', sans-serif;
     }
 
 
@@ -978,8 +999,8 @@ hr {
     }
 
     .bookImg {
-        width: 540px;
-        height: 320px;
+        width: 390px;
+        height: 220px;
 
     }
 
@@ -994,8 +1015,8 @@ hr {
     }
 
     .bookImgNew {
-        width: 540px;
-        height: 320px;
+        width: 390px;
+        height: 220px;
     }
 
     .column3Standart {
@@ -1072,11 +1093,22 @@ hr {
     }
 
     .ContactTextItem {
-        font-size: 20px;
+        font-size: 13px;
         margin: 30px 0;
     }
 
-    .contactInnerMap{
+    .contactInnerMap {
         margin: 0 0;
+    }
+
+    .section4Container {
+        width: 100vh;
+    }
+
+    .footerLinks {
+        display: flex;
+        font-size: 13px;
+        color: black;
+        padding-bottom: 30px;
     }
 }
